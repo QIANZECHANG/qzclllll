@@ -1,5 +1,5 @@
 p = malloc(1);
-if (c == 1)
+if (c > 1)
   q = p;
 else
   q = malloc(1);
