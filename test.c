@@ -6,3 +6,7 @@ else
 *p = 1;
 free(q);
 //if (! (c == 1))free(p);
+
+
+
+
