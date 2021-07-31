@@ -1,12 +1,8 @@
-p = malloc(1);
-if (c == 1)
-  q = p;
-else
-  q = malloc(1);
-*p = 1;
-free(q);
-//if (! (c == 1))free(p);
-
-
-
-
+int foo(int a, int b){
+  int c;
+  if (a)
+    c = a - b; 
+  else
+    c = a;
+  return c;
+}
