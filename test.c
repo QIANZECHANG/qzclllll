@@ -1,3 +1,35 @@
+func(x,y){
+  ...
+  if(c)return0;
+  z=3/x*y;
+  ...
+}
+
+
+
+func(a,b){
+  c=b+5
+  if(a==c){
+    if(a>2*b){
+      ...
+    }
+    ...
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 struct M{int* p1;int* p2;};
 func(int a,int b){
   struct M m;
