@@ -1,8 +1,15 @@
-func(x,y){
-  ...
-  if(c)return0;
-  z=3/x*y;
-  ...
+int func(int x,int y){
+  int c=x+y;
+  //int tmp1=c;
+  if(c==5)
+    int *p=malloc(4);//o1
+    //int *tmp2=p;
+  c=3;
+  *p=1;
+  p=malloc(4);//o2
+  free(p);
+  //if(tmp1==5)free(tmp2);
+  return 0;
 }
 
 
@@ -16,9 +23,6 @@ func(a,b){
     ...
   }
 }
-
-
-
 
 
 
